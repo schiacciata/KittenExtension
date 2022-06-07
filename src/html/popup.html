@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>🐈 | Kitten!</title>
+  <link rel="icon" href="/src/img/icons/icon128.png">
+  <meta name="description" content="Adorable cats">
+  <meta name="author" content="PADO">
+  <link rel="stylesheet" href="/src/css/popup.css">
+  <script src="/src/js/popup.js" type="module"></script>
+
+</head>
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <pattern id="pattern" x="0" y="0" width="210" height="210" patternUnits="userSpaceOnUse">
+      <text class='emoji-pattern' x="0" y="100" width="80" font-size="80">
+        🐈‍⬛
+      </text>
+      <text class='emoji-pattern' x="100" y="200" width="80" font-size="80">
+        🐈
+      </text>
+    </pattern>
+    <rect fill="url(#pattern)" x="0" y="0" width="100%" height="100%" />
+  </svg>
+
+  <a href="options.html" target="_blank" style="text-decoration: none;" title="Settings">⚙️</a>
+
+  <center>
+    <h1 title="Visit the subreddit ->" class="heart" id="sub">&#9825; </h1>
+    <h3 title="&#128151;" id="title" class="text"></h3>
+    <img id="cat_img" class="img">
+    <button type="submit" id="button" class="btn">New image</button>
+  </center>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>⚙️ | Settings!</title>
+    <link rel="icon" href="/src/img/icons/icon128.png">
+    <meta name="description" content="Options page">
+    <meta name="author" content="PADO">
+    <link rel="stylesheet" href="/src/css/options.css">
+    <script src="/src/js/options.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <pattern id="pattern" x="0" y="0" width="210" height="210" patternUnits="userSpaceOnUse">
+            <text class='emoji-pattern' x="0" y="100" width="80" font-size="80">
+                ⚙️
+            </text>
+            <text class='emoji-pattern' x="100" y="200" width="80" font-size="80">
+                🛠️
+            </text>
+        </pattern>
+        <rect fill="url(#pattern)" x="0" y="0" width="100%" height="100%" />
+    </svg>
+
+    <a href="popup.html" id="home" title="Home">🏠</a>
+
+    <center>
+        <h1 class="text">🧰 Control Panel!</h1>
+
+        <br>
+
+        <h4 title="You can also choose the 'random' option" class="text">Choose your preferred subreddit</h4>
+        <p class="text">The extension will fetch the images from it</p>
+        <select name="subreddit" id="selection" required="true"></select>
+
+        <br>
+        <br>
+
+        <button type="submit" id="submit">Save!</button>
+    </center>
+</body>
+
+</html>
